@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import {
   Flex,
   Link,
@@ -14,7 +14,7 @@ import dribbleIcon from "../../assets/Images/icon-park-outline_dribble.png";
 import linkedlnIcon from "../../assets/Images/hugeicons_linkedin-01.png";
 import xIcon from "../../assets/Images/akar-icons_x-fill.png";
 import mailIcon from "../../assets/Images/iconoir_mail.png";
-import whatsappIcon from "../../assets/Images/whatsapp.png";
+// import whatsappIcon from "../../assets/Images/whatsapp.png";
 import { IoChevronUpCircleOutline } from "react-icons/io5";
 import { animateScroll as scroll } from "react-scroll";
 
@@ -101,13 +101,14 @@ const Footer = () => {
               aria-label="Mail"
             />
           </Link>
-          <Link href="https://wa.me/+2348130713502">
+          {/* temporarily hide the whatsapp contact */}
+          {/* <Link href="https://wa.me/+2348130713502">
             <IconButton
               icon={<Image src={whatsappIcon} alt="WhatsApp" />}
               variant="ghost"
               aria-label="WhatsApp"
             />
-          </Link>
+          </Link> */}
         </Flex>
       </Flex>
 

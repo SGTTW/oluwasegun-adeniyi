@@ -2,6 +2,7 @@ import { Box, Flex, Button, Text, Image } from "@chakra-ui/react";
 import profilePicture from "../../assets/Images/profilePicture.png";
 import exportIcon from "../../assets/Images/export.png";
 import { Link } from "react-scroll";
+import PropTypes from "prop-types";
 
 export function Sidebar() {
   const NavButton = ({ to, children }) => (
@@ -24,6 +25,12 @@ export function Sidebar() {
       {children}
     </Button>
   );
+
+  // For NavButton component
+  NavButton.propTypes = {
+    to: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
+  };
 
   const SidebarContent = () => (
     <Flex direction="column" align="center" w="full">

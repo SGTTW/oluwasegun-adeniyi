@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Text, Heading, Divider } from "@chakra-ui/react";
 import { Typewriter } from "react-simple-typewriter";
 
