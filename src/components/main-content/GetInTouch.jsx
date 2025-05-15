@@ -25,7 +25,7 @@ import exportIcon from "../../assets/Images/exportWhite.png";
 const GetInTouch = () => {
   const toast = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [setSubmitSuccess] = useState(false);
+  const [submitSuccess, setSubmitSuccess] = useState(false);
 
   const {
     register,
@@ -57,7 +57,8 @@ const GetInTouch = () => {
       } else {
         throw new Error("Failed to send message");
       }
-    } catch {
+    } catch (error) {
+      console.log("Form submission error", error);
       toast({
         title: "Error sending message",
         description: "Please try again later",
