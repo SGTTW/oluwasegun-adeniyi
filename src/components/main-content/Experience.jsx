@@ -166,7 +166,7 @@ const Experience = () => {
         title="Frontend Developer"
         company="ReconXi"
         date="Jan 2025 - April 2025"
-        employmentType={"Intern"}
+        employmentType={"Contract"}
         description="ReconXi is built to take the effort out of financial reconciliation. Whether you're managing bank statements, company ledgers, or school accounts, our AI identifies and matches transactions quickly and accurately."
         badges={[
           { label: "Next.js", colorScheme: "gray", borderRadius: "full" },
