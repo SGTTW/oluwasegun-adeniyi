@@ -22,7 +22,7 @@ import weather from "../../../src/assets/Images/weather.png";
 import blogPost from "../../../src/assets/Images/blogPost.png";
 import pigGame from "../../../src/assets/Images/pig-game.png";
 import reconXi from "../../../src/assets/Images/reconxi-home.webp";
-import myPortfolio from "../../../src/assets/Images/myPortfolio (2).png";
+import myPortfolio from "../../../src/assets/Images/myPortfolio(3).png";
 import matepair from "../../../src/assets/Images/matepair.png";
 import ctg from "../../../src/assets/Images/ctg.png";
 
