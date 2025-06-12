@@ -26,6 +26,7 @@ const GetInTouch = () => {
   const toast = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
+  void submitSuccess; //to avoid linting error
 
   const {
     register,

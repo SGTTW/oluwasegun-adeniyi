@@ -9,7 +9,7 @@ import {
   Button,
   Divider,
 } from "@chakra-ui/react";
-import ricamado from "../../assets/Images/ricamado.png";
+import ricamado from "../../assets/Images/ricamado(3).png";
 import exportIcon from "../../assets/Images/export.png";
 import projLum from "../../assets/Images/projLum.png";
 import hngIntern from "../../assets/Images/hngIntern.png";
@@ -156,7 +156,7 @@ const Experience = () => {
             borderRadius: "full",
           },
         ]}
-        link="https://ricamado.vercel.app/"
+        link="https://www.ricamado.com.ng"
       />
       <Divider mb={"32px"} />
 
