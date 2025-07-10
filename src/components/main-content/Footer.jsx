@@ -1,4 +1,4 @@
-import  { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import {
   Flex,
   Link,
@@ -80,7 +80,8 @@ const Footer = () => {
               aria-label="Dribbble"
             />
           </Link>
-          <Link href="https://www.linkedin.com/in/oluwasegun-adeniyi-1844281b1/">
+          {/* <Link href="https://www.linkedin.com/in/oluwasegun-adeniyi-1844281b1/"> */}
+          <Link href="https://www.linkedin.com/in/oluwasegunadeniyi-/">
             <IconButton
               icon={<Image src={linkedlnIcon} alt="LinkedIn" />}
               variant="ghost"
