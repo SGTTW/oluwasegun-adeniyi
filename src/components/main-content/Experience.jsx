@@ -394,7 +394,7 @@ const Experience = () => {
           { label: "React.js", colorScheme: "gray" },
           { label: "Firebase", colorScheme: "gray" },
         ]}
-        link="https://blog-management-app.netlify.app/"
+        link="https://blog-management-blond-one.vercel.app/"
       />
       {/* <Divider mb={"32px"} /> */}
 
