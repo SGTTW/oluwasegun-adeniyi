@@ -81,7 +81,7 @@ const Footer = () => {
             />
           </Link>
           {/* <Link href="https://www.linkedin.com/in/oluwasegun-adeniyi-1844281b1/"> */}
-          <Link href="https://www.linkedin.com/in/oluwasegunadeniyi-/">
+          <Link href="https://www.linkedin.com/in/oluwasegun-adeniyi-1844281b1/">
             <IconButton
               icon={<Image src={linkedlnIcon} alt="LinkedIn" />}
               variant="ghost"
