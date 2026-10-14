@@ -25,6 +25,7 @@ import reconXi from "../../../src/assets/Images/reconxi-home.webp";
 import myPortfolio from "../../../src/assets/Images/myPortfolio(3).png";
 import matepair from "../../../src/assets/Images/matepair.png";
 import ctg from "../../../src/assets/Images/ctg.png";
+import driinkwater_homepage from "../../../src/assets/Images/driinkwater_homepage.png";
 
 import { IoChevronUpSharp, IoChevronDownSharp } from "react-icons/io5";
 import PropTypes from "prop-types";
@@ -124,7 +125,7 @@ const Experience = () => {
         label: PropTypes.string.isRequired,
         colorScheme: PropTypes.string.isRequired,
         borderRadius: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-      })
+      }),
     ).isRequired,
     link: PropTypes.string.isRequired,
     employmentType: PropTypes.string,
@@ -133,9 +134,34 @@ const Experience = () => {
   return (
     // experience
     <Box borderRadius="8px" padding="16px">
-      <Heading size="md" mb="16px" fontWeight={"regular"} color={"#333333"}>
+      <Heading size="md" mb="32px" fontWeight={"regular"} color={"#333333"}>
         Experience
       </Heading>
+
+      {/* driinkwater */}
+      <ExperienceItem
+        image={driinkwater_homepage}
+        title="Co-Founder"
+        company="driinkwater"
+        date="March 2025 - Present"
+        employmentType={"Full-time"}
+        description="Co-founded a B2B digital marketplace connecting businesses with verified water vendors. Leading product design, frontend development, and platform architecture. Built the MVP from scratch using Next.js, TypeScript, and Tailwind CSS, including customer/vendor dashboards, order management, and payment integration."
+        badges={[
+          { label: "Next.js", colorScheme: "gray", borderRadius: "full" },
+          { label: "TypeScript", colorScheme: "gray", borderRadius: "full" },
+          { label: "Tailwind CSS", colorScheme: "gray", borderRadius: "full" },
+          {
+            label: "Product Design",
+            colorScheme: "gray",
+            borderRadius: "full",
+          },
+          { label: "Figma", colorScheme: "gray", borderRadius: "full" },
+          { label: "Prisma", colorScheme: "gray", borderRadius: "full" },
+          { label: "PostgreSQL", colorScheme: "gray", borderRadius: "full" },
+        ]}
+        link="https://www.driinkwater.com/"
+      />
+      <Divider mb={"32px"} />
 
       {/* Ricamado */}
       <ExperienceItem
