@@ -141,7 +141,7 @@ const Experience = () => {
       {/* driinkwater */}
       <ExperienceItem
         image={driinkwater_homepage}
-        title="Co-Founder"
+        title="Founder"
         company="driinkwater"
         date="March 2025 - Present"
         employmentType={"Full-time"}
