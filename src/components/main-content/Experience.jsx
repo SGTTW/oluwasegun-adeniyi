@@ -145,7 +145,7 @@ const Experience = () => {
         company="driinkwater"
         date="March 2025 - Present"
         employmentType={"Full-time"}
-        description="Co-founded a B2B digital marketplace connecting businesses with verified water vendors. Leading product design, frontend development, and platform architecture. Built the MVP from scratch using Next.js, TypeScript, and Tailwind CSS, including customer/vendor dashboards, order management, and payment integration."
+        description="Founded a B2B digital marketplace connecting businesses with verified water vendors. Leading product design, frontend development, and platform architecture. Built the MVP from scratch using Next.js, TypeScript, and Tailwind CSS, including customer/vendor dashboards, order management, and payment integration."
         badges={[
           { label: "Next.js", colorScheme: "gray", borderRadius: "full" },
           { label: "TypeScript", colorScheme: "gray", borderRadius: "full" },
